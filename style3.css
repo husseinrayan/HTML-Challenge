@@ -1,0 +1,96 @@
+body{
+    margin-top:20px;
+    margin-left:150px;
+    margin-right:150px;
+    background-color: rgb(63, 17, 39);
+    color: white;
+}
+.image {
+    text-align: center;
+    position:relative;
+    color: white;
+}
+div img{
+    width:100%;
+    height:200px;
+    border:1px solid white;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.title{
+    position: absolute;
+    top: 12px;
+    left: 100px;
+    color: blueviolet;
+    font-style: oblique;
+}
+nav{
+    padding-top:30px;
+    padding-bottom: 30px;
+    background-color: rgb(36, 131, 84) ;
+}
+nav a{
+    display:inline;
+    margin:auto;
+    padding-right:40px;
+    padding-left: 50px;
+    text-decoration: none;
+    color:white;
+}
+nav a:not(:first-child){
+    border-left: solid 1px white; 
+}
+
+main li{
+    list-style-type: square;
+}
+
+.flex{
+    display:flex;
+}
+
+footer p{
+    text-align: center;
+}
+
+.first{
+    width:20%;
+}
+.second{
+    width:80%;
+}
+#borderright{
+    border-right:1px solid white;
+}
+.second section{
+    margin-left:20px;
+}
+p{
+    margin-bottom: 20px;
+}
+button{
+   padding:10px;
+}
+
+form{
+    display:flex;
+    flex-direction: column;
+    width:450px;
+    background-color:rgb(8, 2, 5) ;
+    padding: 20px;
+    padding-top: 0px;
+    text-align: center;
+}
+label textarea{
+    vertical-align: middle;
+}
+
+
+input[type="radio"], label{
+    vertical-align: baseline;
+    margin-top:20px;
+}
+
+input{
+    margin-bottom:20px;
+}
